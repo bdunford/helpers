@@ -1,6 +1,6 @@
 #helpers
 
-A node library with some Helper extensions to Object, Array, and String
+Node helper extensions to Object, Array, and String
 
 Requires Nodejs http://nodejs.org
 
