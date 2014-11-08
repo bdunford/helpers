@@ -1,0 +1,15 @@
+{
+    "name": "helpers",
+    "main": "./lib/helpers",
+    "version": "0.0.0",
+    "private": true,
+    "description": "just another node app",
+    "repository": "https://github.com/bdunford/helpers",
+    "license": "MIT",
+    "dependencies": {
+
+    },
+    "scripts" : {
+        "test" : "jasmine-node spec"
+    }
+}
