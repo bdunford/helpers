@@ -127,7 +127,7 @@ describe("helpers", function() {
     it ("String.tryJsonParse() to return null when json not valid", function(){
         var s = '{"name":"Test"}}}},"id":1,"shared":"origional"}';
         var result = s.tryJsonParse();
-        expect(result).toEqual(null);
+        expect(result).toBeFalsy();
     })
 
     it ("String.tryJsonParse(returnException) to return the JSON.parse Exception when json not valid", function(){

@@ -31,6 +31,11 @@ _Be sure to run npm install from with in the __helpers__ directory_
 
 ##Usage
 
+require helpers in your javascript. Helpers are all extensions methods so there is no need to set a variable.
+```javascript
+require('helpers');
+```
+
 ###Object Helpers
 __merge__ will merge the contents of the passed object with the object the extension was called on
 ```javascript
