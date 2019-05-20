@@ -52,9 +52,11 @@ var second = {
 first.merge(second);
 //will return  { color: "yellow", size: "big", age: 10}
 ```
+
 <br />
 __isEqualTo__ returns true if the object values are equal since == will always return false unles comaring the same object
 <br />
+
 ```javascript
 var first = {
     color: "green",
