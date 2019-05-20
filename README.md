@@ -1,4 +1,4 @@
-#helpers
+# helpers
 
 Node helper extensions to Object, Array, and String
 
@@ -29,7 +29,7 @@ __Raw__<br />
 Be sure to run npm install from with in the __helpers__ directory
 
 
-##Usage
+## Usage
 
 require helpers in your javascript. Helpers are all extensions methods so there is no need to set a variable.
 ```javascript
@@ -65,7 +65,7 @@ first.isEqualTo({color: "green", size: "big"});
 // will return true
 ```
 
-###Array Helpers
+### Array Helpers
 __first__ returns the first item of an array, the default value if passed or null
 ```javascript
 var ar = ["blue","green","red"]
