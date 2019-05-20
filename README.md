@@ -53,9 +53,8 @@ first.merge(second);
 //will return  { color: "yellow", size: "big", age: 10}
 ```
 
-<br />
 __isEqualTo__ returns true if the object values are equal since == will always return false unles comaring the same object
-<br />
+
 
 ```javascript
 var first = {
@@ -74,10 +73,12 @@ var ar = ["blue","green","red"]
 ar.first(); // will return "blue"
 [].first("black"); // will return black;
 ```
-<br />
-<br />
+
+
 __where__ returns a new array containing the values that met the passed condition.
-<br />
+
+
+
 ```javascript
 var ar = [
     {name: "apple", color: "red"},
@@ -92,9 +93,13 @@ ar.where(function(x){return x.color == "purple"});
     {name: "grape", color: "purple"}
 ]
 ```
-<br />
+
+
+
 __group_by__ will return an an object that contains the resulting arrays described by the values of the groupBy parameter that was passed.
-<br />
+
+
+
 ```javascript
 var ar = [
     {name: "apple", color: "red"},
@@ -124,10 +129,10 @@ __pushUnique__ will only add an object to the array if it does not exit using Ob
 var ar = [{color: "blue"},{color: "green"},{color: "red"}]
 ar.pushUnique({color: "blue"}); // will not add {color: "blue"} to the array.
 ```
-<br />
-###String Helpers
+
+### String Helpers
 __tryJsonParse__ will attempt to parse the string as json to an object using JSON.parse. If the JSON.parse fails tryJsonParse will return false. If returnException = true is passed ```myString.tryJsonParse(true)``` and the parse fails the JSON.parse exception will be returned.
-<br />
+
 ```javascript
 var s = '{"color": "blue"}'
 s.tryJsonParse(); // will return {color: "blue"}
