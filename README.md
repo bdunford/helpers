@@ -5,7 +5,7 @@ Node helper extensions to Object, Array, and String
 Requires Nodejs http://nodejs.org
 
 
-##Installing
+## Installing
 
 __From the Command Line__<br />
 npm install git+https://github.com/bdunford/helpers.git
@@ -36,7 +36,7 @@ require helpers in your javascript. Helpers are all extensions methods so there 
 require('helpers');
 ```
 
-###Object Helpers
+### Object Helpers
 __merge__ will merge the contents of the passed object with the object the extension was called on
 ```javascript
 var first = {
